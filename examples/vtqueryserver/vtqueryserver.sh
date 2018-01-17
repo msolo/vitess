@@ -2,6 +2,8 @@
 
 set -u
 
+(cd $VTROOT/src/github.com/youtube/vitess/go/cmd/vtqueryserver && go build)
+
 role='master'
 uid='1'
 
